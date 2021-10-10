@@ -54,6 +54,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 95%;
   }
 }
 
@@ -86,6 +87,7 @@ body {
 @media screen and (min-width: 325px) and (max-width: 700px) {
   .certificate_wrapper .header .header_text p {
     text-align: center;
+    font-size: 17px;
   }
 }
 
@@ -101,7 +103,8 @@ body {
 
 @media screen and (min-width: 325px) and (max-width: 700px) {
   .title {
-    font-size: 28px;
+    font-size: 24px;
+    margin-top: 10px;
   }
 }
 
