@@ -29,6 +29,13 @@ body {
   background: linear-gradient(to bottom, #fff, #fff 50%, #eee 100%);
 }
 
+@media screen and (min-width: 325px) and (max-width: 700px) {
+  .certificate_wrapper {
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
 .certificate_wrapper .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,9 +48,27 @@ body {
   padding-top: 30px;
 }
 
+@media screen and (min-width: 325px) and (max-width: 700px) {
+  .certificate_wrapper .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .certificate_wrapper .header .logo img {
   height: 43px;
   width: 143px;
+}
+
+@media screen and (min-width: 325px) and (max-width: 700px) {
+  .certificate_wrapper .header .logo img {
+    height: 30px;
+    width: 120px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 .certificate_wrapper .header .header_text {
@@ -58,6 +83,12 @@ body {
   line-height: 32px;
 }
 
+@media screen and (min-width: 325px) and (max-width: 700px) {
+  .certificate_wrapper .header .header_text p {
+    text-align: center;
+  }
+}
+
 .title {
   font-size: 48px;
   line-height: 56px;
@@ -68,12 +99,26 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+@media screen and (min-width: 325px) and (max-width: 700px) {
+  .title {
+    font-size: 28px;
+  }
+}
+
 .info {
   font-size: 20px;
   line-height: 36px;
   font-weight: 400;
   width: 55%;
   margin: 13px auto 13px 5%;
+}
+
+@media screen and (min-width: 325px) and (max-width: 700px) {
+  .info {
+    width: 100%;
+    padding-right: 10px;
+    font-size: 18px;
+  }
 }
 
 .stages {
@@ -86,6 +131,12 @@ body {
   font-weight: 700;
 }
 
+@media screen and (min-width: 325px) and (max-width: 700px) {
+  .stages {
+    font-size: 20px;
+  }
+}
+
 .name {
   margin-left: 5%;
   font-size: 96px;
@@ -93,6 +144,13 @@ body {
   font-weight: 900;
   font-family: "Work Sans", sans-serif;
   color: #000000;
+}
+
+@media screen and (min-width: 325px) and (max-width: 700px) {
+  .name {
+    font-size: 58px;
+    line-height: 70px;
+  }
 }
 
 .footer {
